@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .stick {
+    @apply w-2 h-20 bg-gradient-to-b from-gray-200 to-gray-300 rounded-sm md:w-3 md:h-24 lg:w-4 lg:h-32
+  }
+}
